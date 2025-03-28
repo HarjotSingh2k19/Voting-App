@@ -21,5 +21,6 @@ db.on('disconnected', ()=> {
     console.log('MongoDB disconnnected');
 })
 
+
 // export the database connection
 module.exports = db;
