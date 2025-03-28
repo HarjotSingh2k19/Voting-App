@@ -27,7 +27,8 @@ router.post('/signup', async (req,res) => {
 
         const token = generateToken(payload);
 
-        res.status(200).json({response: response, token: token});
+        res.status(200).json({response: response, token: token});  
+        
 
     } catch(err){
         console.log(err);
